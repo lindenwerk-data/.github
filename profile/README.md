@@ -21,6 +21,12 @@ published here; this page is an index.
 Every Actor also carries Apify's minimum start event (USD 0.00005 per run). Rows that are filtered out, below your
 score threshold or duplicates are never charged, and neither are documents that fail or have no text layer.
 
+## Client examples
+
+Copy-paste runners (Python, JavaScript, curl), sample inputs and recipes live in the public repo
+[lindenwerk-data/apify-actor-examples](https://github.com/lindenwerk-data/apify-actor-examples) (MIT). The Actors themselves stay on Apify Store; that repo only calls them.
+
+
 ## How we build
 
 - **Public sources or your own files.** Official open-data exports and APIs for tenders; robots.txt honoured for
